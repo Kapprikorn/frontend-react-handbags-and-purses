@@ -40,21 +40,25 @@ function App () {
       <main>
         <Product tagName={'Best Seller'}
                  image={bag_1}
+                 imageAlt='image of a bag'
                  name={bagNames[0]}
                  prize={prizes[0]}
         />
         <Product tagName={'Best Seller'}
                  image={bag_2}
+                 imageAlt='image of a bag'
                  name={bagNames[1]}
                  prize={prizes[1]}
         />
-        <Product tagName={'Best Seller'}
+        <Product tagName={'New Collection'}
                  image={bag_3}
+                 imageAlt='image of a bag'
                  name={bagNames[2]}
                  prize={prizes[2]}
         />
-        <Product tagName={'Best Seller'}
+        <Product tagName={'New Collection'}
                  image={bag_4}
+                 imageAlt='image of a bag'
                  name={bagNames[3]}
                  prize={prizes[3]}
         />
